@@ -1,5 +1,5 @@
 import axios from 'axios';
-const Api = axios.create({baseURL : 'https://full-stack-assignment-reunion.onrender.com'})
+const Api = axios.create({baseURL : 'https://assignment-reunoin.onrender.com'})
 
 export const login=(formData)=>{
     console.log(formData);
